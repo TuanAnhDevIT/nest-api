@@ -18,3 +18,7 @@ networks:
     #Create container, network... from "docker composer" file: 
     #-d: deamon/background mode
     #docker compose up -d
+    #if you want to start only specified services/container
+    #docker compose up -d dev-database -d
+    #how to remove containers+volumes
+    #docker compose rm dev-database --stop --force --volumes
